@@ -93,6 +93,34 @@
         .btn:hover{
             background-color: rgb(55, 55, 55);
         }
+
+        .container{
+            border:2px solid rgb(19, 10, 10);  
+            color:black;
+            margin: 95px 666px;
+            padding: 28px 31px;
+            width:33%;
+            border-radius: 10px;
+        }
+        .form-group input{ 
+            text-align:center; 
+            display:block;
+            width:70%;
+            margin: 8px auto;
+            padding:6px;
+            border: 2px solid black;
+            border-radius:10px;    
+            font-size:16px;
+            font-family: 'Montserrat', sans-serif;  
+        }
+        .container h1{
+            text-align:center;
+        }
+        .container button{
+            display:block;
+            width:70%;
+            margin:20px auto;
+        }
     </style> 
 </head>
 <body> 
@@ -117,7 +145,33 @@
             <button class="btn">Email us</button>
         </div>
 
-    </header>
+    </header> 
+
+    <div class="container">
+        <h1>Join the best gym of Delhi now!</h1>
+        <form action="no-action.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name" id="">
+            </div> 
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age" id="">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender" id="">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality" id="">
+            </div>
+
+            <button class="btn">
+                Submit
+            </button>
+
+        </form>
+    </div>
     
 </body>
 </html>
